@@ -1,0 +1,17 @@
+{
+  "core.repositoryformatversion": [
+    "0"
+  ],
+  "core.filemode": [
+    "true"
+  ],
+  "core.bare": [
+    "true"
+  ],
+  "filter.lfs.smudge": [
+    "git-lfs smudge --skip -- %f"
+  ],
+  "filter.lfs.process": [
+    "git-lfs filter-process --skip"
+  ]
+}
